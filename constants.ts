@@ -1,4 +1,4 @@
-export const API_BASE_URL = "http://localhost:8000/cms";
+export const API_BASE_URL = `${process.env.API_SERVER}/cms`;
 
 export const GET_PROJECTS = `${API_BASE_URL}/get-cms-project`;
 export const GET_PROJECT = `${API_BASE_URL}/get-project`;
